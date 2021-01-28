@@ -1,0 +1,230 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.topnav{
+	overflow: hidden;
+	background-image: url(images/blue-bg3.jpg);
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color:  #0B0C10;
+	padding: 30px 16px;
+	font-size: 25px;
+	text-decoration: none;
+	margin-left: 80px;
+	font-family: cursive;
+}
+
+.topnav a:hover {
+	background-color: #C5C6C7;
+	color: black;
+}
+
+.column2{
+	float:left;
+	width: 33.3%;
+	padding: 15px;
+	text-align: center;
+}
+
+.row2: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column3{
+	float: left;
+	width: 50%;
+	padding: 15px;
+	text-align: center;
+}
+.row3: after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Extra tweaks */
+.page{
+	text-align: center;
+	color: #203647;
+	font-size: 80px;
+	font-family: cursive;
+}
+.list1{
+	color: #203647;
+	font-size: 20px;
+	font-family: cursive;
+
+}
+#infolist{
+	float: right;
+	color: black;
+	margin-top: -50px;
+	margin-right: 170px;
+	color: #203647;
+	font-family: cursive;
+}
+.school{
+	color: #203647;
+	font-size: 40px;
+	font-family: cursive;
+}
+
+#prof{
+	width:300px;
+	float: right;
+	margin-right: 250px;
+	margin-top: 170px;
+}
+#name{
+	float: right;
+	margin-top: 160px;
+	margin-right: -460px;
+	font-size: 60px;
+	color: #203647;
+}
+
+.border{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+#uclogo{
+	width: 200px;
+	border-radius: 50%;
+}
+#ublogo{
+	width: 200px;
+	border-radius: 50%;
+}
+#kofalogo{
+	width: 200px;
+	border-radius: 50%;
+}
+#awards1{
+	width: 400px;
+}
+#awards2{
+	width: 300px;
+}
+#awards3{
+	width: 300px;
+}
+#refpage{
+	text-align: left;
+	margin-left: 150px;
+	color: #F0F8FF;
+	margin-bottom: -10px;
+	font-family: cursive;
+	margin-top: 10px;
+}
+.ref{
+	text-align: left;
+	font-size: 35px;
+	color: #F0F8FF;
+	margin-left: 500px;
+	margin-top: 30px;
+	font-family: cursive;
+}
+#ref1{
+	float: left;
+	width: 400px;
+	margin-left: 25px;
+	margin-right: -250px;
+	margin-top: 100px;
+	border-color: white;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 50%;
+
+}
+#hello{
+	text-align: left;
+	font-size: 400px;
+	margin-bottom: -80px;
+	margin-top: -0px;
+	margin-left: 100px;
+	color: #203647;
+}
+#page1{
+	text-align: left;
+	margin-left: 100px;
+	color: #203647;
+}
+#pskill{
+	float: left;
+	font-size: 80px;
+	margin-left: 180px;
+	color: #203647;
+	font-family: cursive;
+}
+#tskill{
+	float: right;
+	font-size: 80px;
+	margin-right: 250px;
+	color: #203647;
+	font-family: cursive;
+	margin-bottom: 0;
+}
+#leadership{
+	float: left;
+	width: 300px;
+	margin-top: 200px;
+	margin-left: -600px;
+}
+#communication{
+	float: left;
+	width: 300px;
+	margin-top: 210px;
+	margin-left: -200px
+}
+#problem{
+	float: left;
+	width: 300px;
+	margin-top: 500px;
+	margin-left: -600px;
+}
+#teamwork{
+	float: left;
+	width: 300px;
+	margin-top: 500px;
+	margin-left: -200px;
+}
+#javaskill{
+	float: right;
+	width: 350px;
+	margin-top: 300px;
+	margin-right: -50px;
+}
+#cssskill{
+	float: right;
+	width: 330px;
+	margin-top: 0;
+	margin-right: -80px;
+}
+#htmlskill{
+	float: right;
+	width: 350px;
+	margin-right: 50px;
+}
+.smol{
+	font-size: 15px;
+}
+#aboutmeicon{
+	border-radius: 25%;
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+	width: 700px;
+	margin-left: 0px;
+	margin-top: -20px;
+}
